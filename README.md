@@ -23,7 +23,7 @@ Files in the directory or archive:
 * style_font.css  
 * style_media.css  
 * style_.css  
-* javascript.js  
+* script.js  
 ## Website and Operating instructions
 The site can be accessed at the following hyperlink:  
 https://hmarkestrad.github.io/Web-APIs-Challenge-Code-Quiz/  
