@@ -20,6 +20,6 @@ This site was developed using the following technologies:
 The site can be accessed at the following hyperlink:  
 https://hmarkestrad.github.io/Portfolio_Challenge/  
 ## Screenshot:  
-![PORTFOLIO CHALLENGE - ESTRADA](https://github.com/hmarkestrad/Portfolio_Challenge/blob/main/images/Screenshot.jpg)  
+![PORTFOLIO CHALLENGE - ESTRADA](https://github.com/hmarkestrad/Web-APIs-Challenge-Code-Quiz/blob/34c1ff099d764a4129d499eecc1104289331a493/images/04-web-apis-homework-demo.gif)  
 ## Contribution  
 Author: H. Mark Estrada • 01-18-2022  
