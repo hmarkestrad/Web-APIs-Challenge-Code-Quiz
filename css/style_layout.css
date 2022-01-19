@@ -1,17 +1,71 @@
-body {
-  padding: 2rem;
-  background-color: whitesmoke;
+.wrapper {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
 }
 
-.item {
-  background-color: skyblue;
-  border-radius: 5px;
-  height: 180px;
-  width: 100%;
+.item-header-right {
+  border-radius: 6px;
+  text-align: right;
+  height:60px;
+  flex:400px;
+
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  border: 1px solid  red;
+  background-color: rgb(205, 222, 228);
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
+.item-header-left {
+  border-radius: 6px;
+  text-align: left;
+  height:60px;
+  flex:400px;
+
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  border: 1px solid  red;
+  background-color: rgb(205, 222, 228);
+}
+
+.item-center {
+  border-radius: 6px;
+  width: 100vw;
+  flex: 100vw;
+  border: 1px solid  red;
+  background-color: rgb(205, 222, 228);
+
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 24vw;
+  padding-left: 24vw;
+}
+
+.questions {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+li {
+  font-size: 1.25rem;
+  color: rgb(253, 253, 255);
+  
+  width: 250px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  margin-top: 1.0rem;
+  margin-bottom: 1.25rem;
+
+  border-radius: 8px;
+  background-color: rgb(59, 0, 99);
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
