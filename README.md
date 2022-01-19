@@ -1,4 +1,4 @@
-# Web APIs Challenge: Code Quiz | ESTRADA  
+# WEB APIs CHALLENGE: CODE QUIZ | ESTRADA  
 A timed coding quiz with multiple-choice questions.  
 ## Acceptance Criteria  
 * On click a timer starts and user is presented with a question repeatedly  
