@@ -1,4 +1,54 @@
-li:hover {
-    background-color: rgb(138, 0, 236);
-
+html, body {
+    font-family: 'open_sansregular';
 }
+
+/* Test Background
+body {
+    background-image: url(../images/04-web-apis-homework-demo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.item-header-right {
+    font-size: 1.4em;
+}
+
+.item-header-left {
+    font-size: 1.4em;
+}
+
+.questions {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.0rem;
+    letter-spacing: -.15rem;
+  }
+  
+li {
+    font-size: 1.25rem;
+    color: rgb(253, 253, 255);
+    
+    width: 225px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  
+    margin-top: 1.0rem;
+    margin-bottom: 1.25rem;
+  
+    border-radius: 8px;
+    background-color: rgb(59, 0, 99);
+  }
+
+  li:hover {
+    background-color: rgb(138, 0, 236);
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  
