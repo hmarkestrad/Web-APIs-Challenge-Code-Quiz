@@ -14,22 +14,96 @@
 </head>
 <body>
   <div class="wrapper">
-    <button id="TimerButton" onclick="StartTimer()">Click me</button>
-    <div class="item-header-left">View high scores</div>
-    <div class="item-header-right" id="TimerDisplay" type="text">Time: 60</div> 
-    <div class="item-center" id="MainViewer">
-      <span class="questions">Commonly used data types DO NOT<br>
+    <p class="item-header-left" onclick="ViewScores()">View high scores</p>
+    <div class="item-header-right" id="TimerDisplay" type="submit">Time: 30</div> 
+
+    <div class="item-center-start" id="Item-Start">
+      <h1>CODE QUIZ</h1>
+      <p class="instructions">You have 30 seconds to answer six coding related questions.</p>
+      <p class="instructions">Incorrect answers will result in a 5 second penalty. </p>
+      <p class="instructions">Click the button to start - Good Luck!</p>
+      <p class="start-button" id="TimerButton" onclick="StartTimer()">Click to Begin</p>
+    </div>
+
+    <div class="item-center-register" id="Item-Reg">
+      <span class="register">View High Score</span>
+      <p>High scores here</p>
+    </div>
+
+    <div class="item-center-end" id="Game-End">
+      <span class="game-end">Game End</span>
+    </div>
+
+    <div class="item-center-scores" id="Item-Scores">
+      <span class="scores" id="High-Scores"><p>High scores here</p></span>
+    </div>
+
+    <div class="item-center-question" id="MainViewer_01">
+      <span class="questions">Commonly used data types DO NOT include which of the following?</span>
+      <ul class="answers"> 
+        <li onclick="Question_01_incorrect()">1. strings</li> 
+        <li onclick="Question_01_correct()">2. boolean</li> 
+        <li onclick="Question_01_incorrect()">3. alerts</li>
+        <li onclick="Question_01_incorrect()">4. numbers</li>
+      </ul>
+      <p class="Message" id="question_01">Your answer was incorrect - Please try again</p>
+    </div>
+    
+    <div class="item-center-question" id="MainViewer_02">
+      <span class="questions">The condition in an IF/ELSE is enclosed with?</span>
+      <ul class="answers"> 
+        <li onclick="Question_02_incorrect()">1. strings</li> 
+        <li onclick="Question_02_incorrect()">2. boolean</li> 
+        <li onclick="Question_02_incorrect()">3. alerts</li>
+        <li onclick="Question_02_correct()">4. numbers</li>
+      </ul>
+      <p class="Message" id="question_02">Your answer was incorrect - Please try again</p>
+    </div> 
+
+    <div class="item-center-question" id="MainViewer_03">
+      <span class="questions">Question 03 include</span>
+      <ul class="answers"> 
+        <li onclick="Question_03_incorrect()">1. strings</li> 
+        <li onclick="Question_03_incorrect()">2. boolean</li> 
+        <li onclick="Question_03_incorrect()">3. alerts</li>
+        <li onclick="Question_03_correct()">4. numbers</li>
+      </ul>
+      <p class="Message" id="question_03">Your answer was incorrect - Please try again</p>
+    </div> 
+
+    <div class="item-center-question" id="MainViewer_04">
+      <span class="questions">Question 4 types DO NOT<br>
       include</span>
       <ul class="answers"> 
-        <li>1. strings</li> 
-        <li>2. boolean</li> 
-        <li>3. alerts</li>
-        <li>4. numbers</li>
+        <li onclick="Question_04_incorrect()">1. strings</li> 
+        <li onclick="Question_04_incorrect()">2. boolean</li> 
+        <li onclick="Question_04_incorrect()">3. alerts</li>
+        <li onclick="Question_04_correct()">4. numbers</li>
       </ul>
+      <p class="Message" id="question_04">Your answer was incorrect - Please try again</p>
+    </div> 
 
+    <div class="item-center-question" id="MainViewer_05">
+      <span class="questions">Question 5 include</span>
+      <ul class="answers"> 
+        <li onclick="Question_05_incorrect()">1. strings</li> 
+        <li onclick="Question_05_incorrect()">2. boolean</li> 
+        <li onclick="Question_05_incorrect()">3. alerts</li>
+        <li onclick="Question_05_correct()">4. numbers</li>
+      </ul>
+      <p class="Message" id="question_05">Your answer was incorrect - Please try again</p>
+    </div> 
 
-
-    </div>
+    <div class="item-center-question" id="MainViewer_06">
+      <span class="questions">Commonly Question 06 include</span>
+      <ul class="answers"> 
+        <li onclick="Question_06_incorrect()">1. strings</li> 
+        <li onclick="Question_06_incorrect()">2. boolean</li> 
+        <li onclick="Question_06_incorrect()">3. alerts</li>
+        <li onclick="Question_06_correct()">4. numbers</li>
+      </ul>
+      <p class="Message" id="question_06">Your answer was incorrect - Please try again</p>
+    </div> 
   </div>
 </body>
 </html>

@@ -12,64 +12,115 @@
 
   padding-top: 1.0rem;
   padding-right: 1.5rem;
-  border: 1px solid  red;
-/*  background-color: rgb(205, 222, 228); */
   opacity: 1.0;
 }
+
+button, input[type="submit"], input[type="reset"] {
+  background:none;
+  border:none;
+	color: inherit;
+	border: none;
+  vertical-align: top;
+	padding: 0;
+	font: inherit;
+	outline: inherit;
+} 
 
 .item-header-left {
+  vertical-align: top;
   border-radius: 6px;
   text-align: left;
-  height:60px;
-  flex:400px;
+  height: 60px;
+  flex: 400px;
 
+  margin: 0px;
   padding-top: 1.0rem;
   padding-left: 1.25rem;
-  border: 1px solid  red;
-/*  background-color: rgb(205, 222, 228); */
   opacity: 1.0;
 }
 
-.item-center {
+.item-center-question {
   width: 100vw;
   flex: 100vw;
 
   padding-top: 3.0rem;
   padding-bottom: 2rem;
   padding-right: 20vw;
-  padding-left: 24vw;
+  padding-left: 20vw;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  min-height: 400px;
+  align-items: center;
 
-  opacity: 1.0;
-}
-
-.item-center-end {
+  height: 80vh;
   display: none;
-  border-radius: 6px;
-  width: 100vw;
-  flex: 100vw;
-  border: 1px solid  red;
-  background-color: rgb(0, 187, 255); */
-
-  padding-top: 3.0rem;
-  padding-bottom: 2rem;
-  padding-right: 20vw;
-  padding-left: 24vw;
-
-  opacity: 1.0;
 }
 
 .item-center-start {
-  display: none;
   border-radius: 6px;
   width: 100vw;
   flex: 100vw;
-  border: 1px solid  red;
-  background-color: rgb(0, 187, 255); */
+  flex-direction: column;
 
   padding-top: 3.0rem;
   padding-bottom: 2rem;
   padding-right: 20vw;
-  padding-left: 24vw;
+  padding-left: 20vw;
 
   opacity: 1.0;
+  display: block;
+  height: 80vh;
+}
+
+.item-center-end {
+  border-radius: 6px;
+  width: 100vw;
+  flex: 100vw;
+  border: 1px solid  red;
+  background-color: rgb(0, 187, 255);
+
+  padding-top: 3.0rem;
+  padding-bottom: 2rem;
+  padding-right: 20vw;
+  padding-left: 20vw;
+
+  opacity: 1.0;
+  display: block;
+  height: 80vh;
+}
+
+.item-center-scores {
+  border-radius: 6px;
+  width: 100vw;
+  flex: 100vw;
+  border: 1px solid  red;
+  background-color: rgb(0, 187, 255);
+
+  padding-top: 3.0rem;
+  padding-bottom: 2rem;
+  padding-right: 20vw;
+  padding-left: 20vw;
+
+  opacity: 1.0;
+  display: none;
+  height: 80vh;
+}
+
+.item-center-register {
+  border-radius: 6px;
+  width: 100vw;
+  flex: 100vw;
+  border: 1px solid  red;
+  background-color: rgb(0, 187, 255);
+
+  padding-top: 3.0rem;
+  padding-bottom: 2rem;
+  padding-right: 20vw;
+  padding-left: 20vw;
+
+  opacity: 1.0;
+  display: none;
+  height: 80vh;
 }

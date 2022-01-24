@@ -1,28 +1,53 @@
 html, body {
     font-family: 'open_sansregular';
+    height: 100%;
+    margin: 0;
 }
-
-/* Test Background
-body {
-    background-image: url(../images/04-web-apis-homework-demo.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .item-header-right {
     font-size: 1.4em;
+    color: purple;
 }
 
 .item-header-left {
     font-size: 1.4em;
+    color: purple;
+    vertical-align: top;
 }
 
 .questions {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 3.0rem;
-    letter-spacing: -.15rem;
-  }
+  font-family: 'open_sansregular';
+  font-weight: bold;
+  font-size: 3.0rem;
+  letter-spacing: -.15rem;
+}
+
+.register{
+  font-family: 'open_sansregular';
+  font-weight: bold;
+  font-size: 3.0rem;
+  letter-spacing: -.15rem;
+  border: 2px solid hotpink;
+
+}
+
+.start {
+  font-family: 'open_sansregular';
+  font-weight: bold;
+  font-size: 3.0rem;
+  letter-spacing: -.15rem;
+  border: 2px solid hotpink;
+
+}
+
+.scores {
+  font-family: 'open_sansregular';
+  font-weight: bold;
+  font-size: 3.0rem;
+  letter-spacing: -.15rem;
+  border: 2px solid hotpink;
+
+}
   
 li {
     font-size: 1.25rem;
@@ -51,4 +76,54 @@ ul {
     list-style-type: none;
   }
 
-  
+.Message {
+  display: none;
+}
+
+.item-center-end {
+  display: none;
+}
+
+.item-header-left, p {
+  cursor: pointer;
+}
+
+.item-center-start {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  min-height: 400px;
+  align-items: center;
+}
+
+.item-center-start h1 {
+  font-size: 4rem;
+  line-height: 2rem;
+}
+
+.instructions {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.start-button {
+  font-family: 'open_sansregular';
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.Message {
+  font-size: 2rem;
+}
