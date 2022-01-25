@@ -124,6 +124,27 @@ ul {
   padding-left: 30px;
 }
 
+.No-Message,
 .Message {
   font-size: 2rem;
+  display: block;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
 }
+.No-Message {
+  height: auto;
+  opacity: 1;
+  width: auto;
+  color: rgb(255, 255, 255);
+}
+
+.Message {
+  color: rgb(0, 0, 0);
+  height: 0;
+  opacity: 0;
+  width: 0;
+  letter-spacing: .2rem;
+  line-height: 1;
+  position: relative;
+  background-color: aqua;
+  }

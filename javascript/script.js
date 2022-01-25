@@ -20,7 +20,7 @@ function ViewScores() {
   }
 }
 
-function Question_01_incorrect() { document.getElementById("question_01").style.display = "flex"; }
+function Question_01_incorrect() { document.getElementById("question_01").style.color = "gray"; }
 function Question_02_incorrect() { document.getElementById("question_02").style.display = "block"; }
 function Question_03_incorrect() { document.getElementById("question_03").style.display = "block"; }
 function Question_04_incorrect() { document.getElementById("question_04").style.display = "block"; }
