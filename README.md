@@ -12,26 +12,28 @@ A timed coding quiz with multiple-choice questions.
 * Repository Quality: 13%  
 ## Built With  
 This site was developed using the following technologies:  
-* HTML (HyperText Markup Language)  
-* CSS (Cascading Style Sheets)  
-* JS (JavaScript)  
-* jQuery (JavaScript Library)  
+  
+[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ## File Manifest  
 Files in the directory or archive:  
 * index.html  
+* font
+* images
+* javascript
 * README.md  
-* style_font.css  
-* style_media.css  
-* style_.css  
-* script.js  
+  
 ## Website and Operating instructions  
 The site can be accessed at the following hyperlink:  
 https://hmarkestrad.github.io/Web-APIs-Challenge-Code-Quiz/  
 1. You can double click the hyperlink or choose File from a browser menu.  
 2. Then select Open File. Navigate to your HTML file location, highlight the document and click Open.  
-3. You will see your file open in a new tab.  
-You can also use a keyboard shortcut to open a file in Chrome. Open a new tab in Chrome, then press Ctrl (Windows) or Cmd (Mac) + O. It will bring up the same Open File menu. Find your HTML file and open it.  
+3. You will see your file open in a new tab or you can also use a keyboard shortcut to open a file in Chrome. Open a new tab in Chrome, then press Ctrl (Windows) or Cmd (Mac) + O. It will bring up the same Open File menu. Find your HTML file and open it.  
 ## Screenshot:  
 ![PORTFOLIO CHALLENGE - ESTRADA](https://github.com/hmarkestrad/Web-APIs-Challenge-Code-Quiz/blob/34c1ff099d764a4129d499eecc1104289331a493/images/04-web-apis-homework-demo.gif)  
 ## Contribution  
-Author: H. Mark Estrada • © 2022 H. Mark Estrada • email: h.mark.estrada@gmail.com  
+H. Mark Estrada © 2022 • email: h.mark.estrada@gmail.com  
