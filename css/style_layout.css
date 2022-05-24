@@ -40,7 +40,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .item-center-question {
-  width: 100vw;
+  
   flex: 100vw;
 
   padding-top: 3.0rem;
@@ -49,7 +49,6 @@ button, input[type="submit"], input[type="reset"] {
   padding-left: 20vw;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
   text-align: center;
   min-height: 400px;
   align-items: center;
@@ -60,7 +59,6 @@ button, input[type="submit"], input[type="reset"] {
 
 .item-center-start {
   border-radius: 6px;
-  width: 100vw;
   flex: 100vw;
   flex-direction: column;
 
