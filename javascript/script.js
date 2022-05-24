@@ -27,7 +27,8 @@ function Question_04_incorrect() { document.getElementById("question_04").style.
 function Question_05_incorrect() { document.getElementById("question_05").style.display = "block"; }
 function Question_06_incorrect() { document.getElementById("question_06").style.display = "block"; }
 
-function Question_01_correct() {
+function Question_01_correct() { 
+  boop();
   document.getElementById("MainViewer_01").style.display = "none";
   document.getElementById("MainViewer_02").style.display = "flex"; }
 
