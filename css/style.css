@@ -4,15 +4,22 @@ html, body {
     margin: 0;
 }
 
+.wrapper {
+  border-bottom: solid 1px rgb(175, 175, 175);
+}
+
 .item-header-right {
     font-size: 1.4em;
+    line-height: 2em;
     color: purple;
 }
 
 .item-header-left {
     font-size: 1.4em;
+    line-height: 2em;
     color: purple;
     vertical-align: top;
+    margin: 0px;
 }
 
 .questions {
@@ -94,10 +101,10 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
   text-align: center;
   min-height: 400px;
   align-items: center;
+  border: solid red 4px;
 }
 
 .item-center-start h1 {
